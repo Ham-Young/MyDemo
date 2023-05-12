@@ -15,9 +15,11 @@ public class MainActivity extends AppCompatActivity {
         numbers.add(3);
         numbers.add(4);
         numbers.add(5);
+        numbers.add(6);
         int sum = calculateSum(numbers);
         TextView textView = findViewById(R.id.text_view);
         textView.setText(String.valueOf(sum));
+
     }
 
     private int calculateSum(List<Integer> numbers) {
